@@ -1,0 +1,30 @@
+.app-add-form {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #12a4d9;
+    border-radius: 32px;
+    box-shadow: 1px 1px 10px #12a4d9;
+    color: #fff;
+}
+
+.add-form {
+    margin-top: 20px;
+}
+
+.add-form input {
+    width: 350px;
+    margin-right: 20px;
+    border-radius: 16px;
+    text-align: center;
+    border: none;
+    box-shadow: 1px 1px 10px #fff;
+}
+
+.btn {
+    transition: 0.2s all;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    box-shadow: 1px 1px 10px #fff;
+}

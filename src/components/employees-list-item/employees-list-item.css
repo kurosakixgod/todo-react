@@ -1,0 +1,94 @@
+.list-group-item {
+    padding: 15px 20px;
+    border-bottom: 1px solid #12a4d9;
+    background-color: #322e2f;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.list-group-item span {
+    line-height: 35px;
+    font-size: 22px;
+    cursor: pointer;
+    min-width: 550px;
+    color: #12a4d9;
+    text-shadow: 0px 0px 10px #12a4d9;
+}
+
+.list-group-item input {
+    line-height: 35px;
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+    background-color: #322e2f;
+    color: #12a4d9;
+    text-shadow: 0px 0px 10px #12a4d9;
+}
+
+.list-group-item button {
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.list-group-item .btn-cookie {
+    color: #e2d810;
+    border-radius: 8px;
+    transition: 0.3s all;
+    background-color: #322e2f;
+    border: 1px solid #e2d810;
+}
+
+.list-group-item .btn-cookie:hover {
+    box-shadow: 1px 1px 10px #e2d810;
+    background-color: #e2d810;
+    color: #fff;
+}
+
+.list-group-item .btn-trash {
+    color: #d9138a;
+    border-radius: 8px;
+    transition: 0.3s all;
+    background-color: #322e2f;
+    border: 1px solid #d9138a;
+}
+
+.list-group-item .btn-trash:hover {
+    box-shadow: 1px 1px 10px #d9138a;
+    background-color: #d9138a;
+    color: #fff;
+}
+
+.list-group-item .fa-star {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    color: #e2d810;
+    text-shadow: 1px 1px 10px #e2d810;
+    transition: 0.3s all;
+    transform: translateX(30px);
+    opacity: 0;
+}
+
+.list-group-item.like .fa-star {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.list-group-item.increase .list-group-item-label, .list-group-item.increase .list-group-item-input {
+    color: #e2d810;
+    text-shadow: 1px 1px 10px #e2d810;
+}
+  
+.list-group-item.increase .btn-star {
+    color: #aeaeae;
+}
+  
